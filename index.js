@@ -18,10 +18,13 @@ const createFareMultiplier = mult => {
     }
 }
 
+// Make a variable that double fares
 const fareDoubler = createFareMultiplier(2)
 
+// Make a variable that triples fares
 const fareTripler = createFareMultiplier(3)
 
+// Select either the first or last two drivers
 const selectDifferentDrivers = (drivers, whichDrivers) => {
     return whichDrivers(drivers);
 };
